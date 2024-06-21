@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    background-size: cover;
     outline: 0.1px solid red
 }
 
@@ -21,7 +20,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
 }
 
 .headSec ul a {
@@ -34,10 +32,13 @@
 
 .secOne {
     font-family: 'Roboto', sans-serif;
-    font-size: 48px;
+    font-size: 1rem;
     font-weight: extra-bold;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 10rem;
 }
 
 .secOne p {
@@ -45,10 +46,15 @@
 }
 
 .secOne img {
-    width: 50%;
-    height: 50%;
+    width: 40rem;
+    height: auto;
+    margin: 2rem;
 }
 
+.secTwo img {
+    width: 20rem;
+}
 .secThree {
     background: #E5E7EB;
 }
+
