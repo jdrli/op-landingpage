@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    outline: 0.1px solid red;
+    /* outline: 0.1px solid red; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -42,17 +42,20 @@ footer {
 
 .secOne {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: extra-bold;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     padding-left: 15rem;
+    padding-bottom: 3rem;
 }
 
-.oneText {
-    padding-right: 9rem;
+
+.oneText p {
+    font-size: 1.2rem;
+    padding-right: 1.5rem;
 }
 
 .secOne p {
@@ -81,8 +84,10 @@ footer {
 .secTwo h2 {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     font-size: 2rem;
+    font-weight: extra-bold;
+    color: #1F2937
 }
 
 .secTwo ul {
@@ -90,7 +95,7 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding: 2rem;
+    padding: 2.5rem;
     margin-left: 11rem;
     margin-right: 11rem;
 }
@@ -100,6 +105,13 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.secTwo ul li p {
+    width: 10rem;
+    color: gray;
 }
 
 .secTwo img {
@@ -107,9 +119,24 @@ footer {
     height: 10rem;
     border-color: #3882F6;
     border-radius: 15px;
-    border-width: medium;
+    border-width: 4px;
+    border-style: solid;
+    margin-bottom: 0.5rem; 
 }
 
 .secThree {
     background: #E5E7EB;
+    padding: 8rem 24rem 8rem 24rem;
+}
+
+.secThree h1 {
+    font-size: 2rem;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.secThree h4 {
+    text-align: right;
+    padding-right: 2rem;
 }
